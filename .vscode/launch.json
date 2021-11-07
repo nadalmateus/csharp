@@ -1,7 +1,4 @@
 {
-    // Use o IntelliSense para saber mais sobre os atributos possíveis.
-    // Focalizar para exibir as descrições dos atributos existentes.
-    // Para obter mais informações, acesse: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
         {
@@ -13,9 +10,9 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/1_namespaces/bin/Debug/net5.0/1_namespaces.dll",
+            "program": "${workspaceFolder}/2_using/bin/Debug/net5.0/2_using.dll",
             "args": [],
-            "cwd": "${workspaceFolder}/1_namespaces",
+            "cwd": "${workspaceFolder}/2_using",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",
             "stopAtEntry": false

@@ -7,7 +7,6 @@
             "type": "process",
             "args": [
                 "build",
-                "${workspaceFolder}/1_namespaces/1_namespaces.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -19,7 +18,7 @@
             "type": "process",
             "args": [
                 "publish",
-                "${workspaceFolder}/1_namespaces/1_namespaces.csproj",
+                "${workspaceFolder}/2_using/2_using.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
@@ -32,7 +31,7 @@
             "args": [
                 "watch",
                 "run",
-                "${workspaceFolder}/1_namespaces/1_namespaces.csproj",
+                "${workspaceFolder}/2_using/2_using.csproj",
                 "/property:GenerateFullPaths=true",
                 "/consoleloggerparameters:NoSummary"
             ],
